@@ -1,0 +1,42 @@
+@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+body{
+    margin:0px;
+   background-color: rgba(61, 61, 61, 0.574);
+}
+.header{
+    color:black;
+    font-size:2rem;
+    text-align:center;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:1rem;
+    background-color: whitesmoke;
+    background-color:blue;
+    margin:0px;
+}
+.in-textarea{
+@ -31,17 +34,20 @@ p{
+    margin-left:28%;
+}
+#btn-translate{
+    padding:1rem;
+    background-color:blueviolet;
+    display:inline;
+    padding:0.5rem;
+    background-color:lightcyan;
+    font-size:1rem;
+    max-width:80%;
+}
+
+.btn-container{
+   text-align:center;
+   
+}
+footer{
+    text-align:center;
+    background-color: brown;
+    background-color:burlywood;
+    padding:1rem;
+    font-style: italic;
+}
