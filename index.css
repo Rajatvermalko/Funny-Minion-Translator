@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 body{
     margin:0px;
-   background-color: #FDE68A;
+   background-color: lightskyblue;
 }
 .header{
     color:black;
@@ -36,7 +36,7 @@ p{
 #btn-translate{
     display:inline;
     padding:0.5rem;
-    background-color:#FBBF24;
+    background-color:lightseagreen;
     font-size:1rem;
     max-width:80%;
 }
@@ -47,7 +47,7 @@ p{
 }
 footer{
     text-align:center;
-    background-color:#FBBF24;
+    background-color:blue;
     padding:1rem;
     font-style: italic;
 }
