@@ -1,30 +1,42 @@
-@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 body{
     margin:0px;
-   background-color: rgba(61, 61, 61, 0.574);
+   background-color: #FDE68A;
 }
 .header{
     color:black;
     font-size:2rem;
     text-align:center;
     font-style: italic;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Calligraffitti;
     padding:1rem;
-    background-color: whitesmoke;
-    background-color:blue;
+    background-color:#FBBF24;
     margin:0px;
 }
 .in-textarea{
-@ -31,17 +34,20 @@ p{
-    margin-left:28%;
+    max-width: 80%;
+    display: block;
+    margin: 2rem auto;
+    height:10rem;
+    width: 30rem;
+    padding:1rem;
+}
+.out-textarea{
+    max-width: 80%;
+    display: block;
+    margin: 2rem auto;
+    height:6rem;
+    width:30rem;
+    padding:1rem;
+    margin-top:0;
+}
+p{
+    margin-left:30%;
 }
 #btn-translate{
-    padding:1rem;
-    background-color:blueviolet;
     display:inline;
     padding:0.5rem;
-    background-color:lightcyan;
+    background-color:#FBBF24;
     font-size:1rem;
     max-width:80%;
 }
@@ -35,8 +47,13 @@ body{
 }
 footer{
     text-align:center;
-    background-color: brown;
-    background-color:burlywood;
+    background-color:#FBBF24;
     padding:1rem;
     font-style: italic;
+}
+.footer-content{
+    max-width: 80%;
+    text-align: center;
+    width:35rem;
+    margin:auto;
 }
